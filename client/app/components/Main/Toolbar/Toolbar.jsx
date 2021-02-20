@@ -44,7 +44,7 @@ class Toolbar extends Component {
     const cursor = isRunning ? "auto" : "pointer";
 
     return (
-      <div id="toolbar" style = "background-color: turquoise;">
+      <div id="toolbar" style = "background-color: black;">
         <div
           id={!isRunning ? "generateArray" : "generateArrayX"}
           style={{color: color, cursor: cursor}}
