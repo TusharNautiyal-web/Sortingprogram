@@ -40,11 +40,12 @@ class Toolbar extends Component {
       570 - Math.pow(array.length, 2) : 0;
 
     const color = isRunning ? "" : "white";
+    const color2 = isRunning ? "" : "black";
 
     const cursor = isRunning ? "auto" : "pointer";
 
     return (
-      <div id="tool" style = 'background-color: black;'>
+      <div id="toolbar" style={{color: color2}}>
         <div
           id={!isRunning ? "generateArray" : "generateArrayX"}
           style={{color: color, cursor: cursor}}
