@@ -11,7 +11,7 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <Toolbar style = "background-color: black;" />
+        <Toolbar/>
         <Body />
       </div>
     )
